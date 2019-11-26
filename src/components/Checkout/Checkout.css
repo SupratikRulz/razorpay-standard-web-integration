@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 8px;
+    min-width: 200px;
+    max-width: 500px;
+    border: 1px solid blue;
+    color: blue;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover {
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+}
+
+.section {
+    text-align: center;
+    padding: 64px 24px;
+}
